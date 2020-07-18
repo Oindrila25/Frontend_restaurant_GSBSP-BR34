@@ -10,3 +10,10 @@ height:600px;
   margin:10px;
   background:#ccc;
 }
+
+#welcome{
+  color: black;
+   background:white;
+  padding-top:200px;
+  opacity:0.5;
+}
