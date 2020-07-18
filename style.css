@@ -3,3 +3,10 @@ background:url('landing.jpg') center no-repeat;
 background-size: cover;
 height:600px;
 }
+
+#contact{
+  padding:10px;
+  border: 1px solid #eee;
+  margin:10px;
+  background:#ccc;
+}
