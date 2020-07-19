@@ -10,7 +10,7 @@ height:600px;
 
 img{
   height=200px;
-  width:350px;
+  width:550px;
 }
 
 #contact{
@@ -26,6 +26,11 @@ img{
   opacity:0.5;
   padding-top: 200px;
   text-align:center;
+}
+
+#slides{
+  height: 4500px;
+  margin:100px;
 }
 
 .logo-image{
