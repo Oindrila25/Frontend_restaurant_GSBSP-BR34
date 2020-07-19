@@ -10,34 +10,7 @@
     <!--CSS file-->
     <link rel="stylesheet" href="style.css">
 	  
-	   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?v=3"
-      defer
-    ></script>
-    <style type="text/css">
-      #map {
-        height: 100px;
-      }
-	  </style>
-	  
-	   <script>
-      (function(exports) {
-        "use strict";
-
-        function initMap() {
-          exports.map = new google.maps.Map(document.getElementById("map"), {
-            center: {
-              lat: 22.615640,
-              lng: 88.387280
-            },
-            zoom: 8
-          });
-        }
-
-        exports.initMap = initMap;
-      })((this.window = this.window || {}));
-    </script>
+	 
 	  
     <title>Ghosh's Restaurant</title>
        
@@ -139,10 +112,7 @@
 </div>
 		</div>
 	      </div>
-	      
-        
-         <div id="map"></div>
-	      
+	   
        
 	 <section id="menu">
       <div class="container">
@@ -175,12 +145,27 @@
            </div>
         </div>
         </section>
+	<section id="location">
+		
+      <div class="container bg-light">
+        <div class="row py-5">
+          <div class="col-lg-8 mx-auto">
+            <h2>Location</h2>
+            <p class= "lead"> Our main restaurant is located in Kolkata.</p>
+            <p>Address: Ghosh's Restaurant, Shantiban, 7 Uma Kanta Sen Lane<br/>Kolkata, India: 700030</p>
+            <br/>  
+		<img src="map1.jpg" alt="map"/>
+		</div>
+	      </div>
+		</div>
+	  </section>
+	  
    
  <div class="container">
  <div id="message">
     <div class= "bg-light px-5">
       <br/><br/>
-   <center><h2 class="lead">Contact Us</h2></center>
+   <center><h2 class="lead">Messages/Complaints</h2></center>
    <center><p>You can send us a message or convey your complaints to us. We are always open to improvement.</p></center>
     <form>
    <div class="form-group">
