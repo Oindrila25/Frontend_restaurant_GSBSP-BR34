@@ -34,12 +34,12 @@ img{
 }
 
 .logo-image{
-    width: 46px;
-    height: 65px;
+    width: 56px;
+    height: 80px;
     /*border-radius: 50%;*/
     overflow: hidden;
     margin-top: -6px;
-  padding-top:15px;
+  padding-top:10px;
 }
 
 
