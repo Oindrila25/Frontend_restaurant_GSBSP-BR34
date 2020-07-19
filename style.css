@@ -29,13 +29,13 @@ img{
 }
 
 #slides{
-  height: 600px;
-  margin:100px;
+  height: 750px;
+  margin:150px;
 }
 
 .logo-image{
     width: 56px;
-    height: 80px;
+    height: 70px;
     /*border-radius: 50%;*/
     overflow: hidden;
     margin-top: -6px;
