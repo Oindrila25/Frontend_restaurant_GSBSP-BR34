@@ -11,3 +11,5 @@ It is a website for a restaurant. It has:
 7. Fully responsive.
 
 Link: https://oindrila25.github.io/Hackathon-Submission/ 
+
+Tech stack: HTML5, CSS3, Bootstrap4
